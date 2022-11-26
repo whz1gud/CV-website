@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<style>
+
+  body {
+    font-family: verdana;
+    color: black;
+  }
+    .wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper > * {
+  padding: 20px;
+}
+
+.page-main {
+  flex-grow: 1;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #FECC58;
+}
+
+.flex-container > div {
+  background-color: #FECC58;
+  border-style: solid;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+header {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+</style>
+
+  </head>
+  <body style="background-color:#FECC58;text-align:center">
+    <div class="wrapper">
+   <header class="page-header">
+    My Experience
+  </header>
+  <main class="page-main">
+    <div class="flex-container">
+      <div style="flex-grow: 2">
+          <h2 style="text-align: center;">Bio</h2>
+        <p>Passionate driven two kids' mom trying to show them the beauty of STEM by learning to code and developing educational games and programmes.</p>
+      </div>
+      <div style="flex-grow: 1">
+      <h2 style="text-align: center;">Spoken languages</h2>
+        <p>English, C2<br>German, C1<br>French, B2<br>Lithuanian, native</p>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div style="flex-grow: 1">
+          <h2 style="text-align: center;">Bio</h2>
+        <p>English, C2<br>German, C1<br>French, B2<br>Lithuanian, native</p>
+      </div>
+      <div style="flex-grow: 2">
+      <h2 style="text-align: center;">Spoken languages</h2>
+      <p>Passionate driven two kids' mom trying to show them the beauty of STEM by learning to code and developing educational games and programmes.</p>
+      </div>
+    </div>
+  </main>
+  </body>
+</html>
